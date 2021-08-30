@@ -82,6 +82,7 @@ class TaxedMoneyField(object):
     blank = True
     concrete = False
     editable = False
+    unique = False
 
     is_relation = False
     remote_field = None
